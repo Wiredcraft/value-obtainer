@@ -1,0 +1,41 @@
+{
+  "name": "value-obtainer",
+  "version": "0.0.0",
+  "description": "",
+  "author": {
+    "name": "Wiredcraft",
+    "email": "info@wiredcraft.com",
+    "url": "http://wiredcraft.com"
+  },
+  "contributors": [
+    "Makara Wang"
+  ],
+  "keywords": [
+    "Value",
+    "Obtainer",
+    "Getter",
+    "Joi"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wiredcraft/value-obtainer"
+  },
+  "bugs": {
+    "url": "https://github.com/Wiredcraft/value-obtainer/issues"
+  },
+  "homepage": "https://github.com/Wiredcraft/value-obtainer",
+  "dependencies": {
+    "joi": "^9.0.4"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5",
+    "jscs": "^3.0.7",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
